@@ -110,7 +110,8 @@ h6 {
     transform: translateX(-100%);
     transition: all 0.5s ease-in;
     z-index: 500;
-    
+    grid-row: 0;
+
     /* Hide navigation */
     /* Allows NO transitions at all */
     /* display: none; */
