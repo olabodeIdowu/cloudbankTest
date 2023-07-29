@@ -15,7 +15,7 @@ const StyledSidebar = styled.aside`
 
 function Sidebar() {
   return (
-    <StyledSidebar className='styledNav'>
+    <StyledSidebar>
       <Logo />
       <MainNav />
     </StyledSidebar>
