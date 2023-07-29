@@ -57,6 +57,10 @@ h6 {
   height: 2rem;
 }
 
+#flexLogo {
+  display: none;
+}
+
     @media screen and (max-width: 640px) {
     .appLayout {
       display: grid;
@@ -76,15 +80,23 @@ h6 {
     }
 
     #logo {
+      display: none;
+    }
+
+    #myLogo {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 2.5rem;
+    }
+
+    #flexLogo {
+      display: grid;
+      grid-template-columns: 1fr 0.5fr;
+      align-items: center;
+   
     }
 
 
     .loanHeader {
-      margin-top: 2rem;
+      margin-top: 1.5rem;
     }
 
     .styledNav {
@@ -111,6 +123,12 @@ h6 {
     visibility: hidden;
   }
 
+  .menu-svg {
+  display: block;
+  cursor: pointer;
+  z-index: 1000;
+}
+
     /* .nav-open .styledNav {
     opacity: 1;
     pointer-events: auto;
@@ -126,11 +144,7 @@ h6 {
     display: none;
   } */
 
-  .menu-svg {
-  display: block;
-  cursor: pointer;
-  z-index: 1000;
-}
+
 
 
     }
