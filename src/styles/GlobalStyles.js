@@ -62,10 +62,10 @@ h6 {
 }
 
     @media screen and (max-width: 640px) {
-    .appLayout {
+    #appLayout {
       display: grid;
       grid-template-columns: 1fr;
-       grid-template-rows: 1fr;
+       grid-template-rows: 0fr;
     }
 
     .main {
@@ -84,10 +84,6 @@ h6 {
       display: none;
     }
 
-    #myLogo {
-      display: block;
-    }
-
     #flexLogo {
       display: grid;
       grid-template-columns: 0.5fr 0.8fr;
@@ -100,7 +96,7 @@ h6 {
       margin-top: 1.5rem;
     }
 
-    .styledNav {
+    #styledNav {
     background-color: rgba(255, 255, 255, 0.97);
     position: absolute;
     top: 0;
@@ -110,14 +106,14 @@ h6 {
     transform: translateX(-100%);
     transition: all 0.5s ease-in;
     z-index: 500;
-  
+   grid-row: 0fr;
 
     /* Hide navigation */
     /* Allows NO transitions at all */
     /* display: none; */
 
     /* 1) Hide it visually */
-   display: none;
+    opacity: 0;
 
     /* 2) Make it unaccessible to mouse and keyboard */
     pointer-events: none;

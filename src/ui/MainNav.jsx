@@ -66,7 +66,7 @@ const StyledNavLink = styled(NavLink)`
 
 function MainNav() {
   return (
-    <StyledNav className='styledNav'>
+    <StyledNav id='styledNav'>
       <NavList>
         <li>
           <StyledNavLink to='/dashboard'>

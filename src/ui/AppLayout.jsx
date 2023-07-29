@@ -18,7 +18,7 @@ function AppLayout() {
   // const [openNav, setOpenNav] = useState(false);
 
   return (
-    <StyledAppLayout className='appLayout'>
+    <StyledAppLayout id='appLayout'>
       <Header />
       <Sidebar />
       <Main className='main'>
