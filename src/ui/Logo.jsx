@@ -11,9 +11,11 @@ const Img = styled.img`
 
 function Logo() {
   return (
-    <StyledLogo>
-      <Img src='/cloudbank.png' alt='Logo' />
-    </StyledLogo>
+    <>
+      <StyledLogo id='logo'>
+        <Img src='/cloudbank.png' alt='Logo' />
+      </StyledLogo>
+    </>
   );
 }
 

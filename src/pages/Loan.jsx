@@ -15,7 +15,6 @@ const StyledMainLoan = styled.main`
       background: #ffffff;
       border-radius: 6px;
       font-family: Poppins;
-      gap: 1rem;
 
       & img {
         display: block;
@@ -46,7 +45,7 @@ const StyledMainLoan = styled.main`
 export default function Loan() {
   return (
     <StyledMainLoan>
-      <ul>
+      <ul id='loanList'>
         <li>
           <img src='One-Month.png' alt='one month' />
           <h2>One Month Loan</h2>
@@ -99,14 +98,6 @@ export default function Loan() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </li>
       </ul>
-      {/* <div>L</div>
-      <div>O</div>
-      <div>A</div>
-      <div>N</div>
-      <div>A</div>
-      <div>P</div>
-      <div>L</div>
-      <div>L</div> */}
     </StyledMainLoan>
   );
 }

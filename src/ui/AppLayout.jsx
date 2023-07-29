@@ -8,7 +8,6 @@ const StyledAppLayout = styled.div`
   grid-template-columns: 26rem 1fr;
   grid-template-rows: auto 1fr;
   height: 100vh;
-  background-color: rgba(230, 230, 250, 0.348);
 `;
 
 const Main = styled.main`
@@ -16,11 +15,13 @@ const Main = styled.main`
 `;
 
 function AppLayout() {
+  // const [openNav, setOpenNav] = useState(false);
+
   return (
-    <StyledAppLayout>
+    <StyledAppLayout className='appLayout'>
       <Header />
       <Sidebar />
-      <Main>
+      <Main className='main'>
         <Outlet />
       </Main>
     </StyledAppLayout>

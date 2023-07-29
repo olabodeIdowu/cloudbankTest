@@ -1,3 +1,4 @@
+import { AiOutlineMenu } from 'react-icons/ai';
 import styled from 'styled-components';
 
 const StyledHeader = styled.header`
@@ -27,7 +28,8 @@ const StyledHeader = styled.header`
 function Header() {
   return (
     <StyledHeader>
-      <h2>Loans</h2>
+      <AiOutlineMenu className='menu-svg' />
+      <h2 className='loanHeader'>Loans</h2>
       <p>
         <span>Monday</span>, 21st February, 2021
       </p>
