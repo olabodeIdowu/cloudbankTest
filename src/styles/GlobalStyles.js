@@ -89,7 +89,7 @@ h6 {
 
     #flexLogo {
       display: grid;
-      grid-template-columns: 1fr 0.5fr;
+      grid-template-columns: 0.5fr 0.8fr;
       align-items: center;
    
     }
