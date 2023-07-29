@@ -110,14 +110,14 @@ h6 {
     transform: translateX(-100%);
     transition: all 0.5s ease-in;
     z-index: 500;
-    grid-row: 0;
+  
 
     /* Hide navigation */
     /* Allows NO transitions at all */
     /* display: none; */
 
     /* 1) Hide it visually */
-    opacity: 0;
+   display: none;
 
     /* 2) Make it unaccessible to mouse and keyboard */
     pointer-events: none;
